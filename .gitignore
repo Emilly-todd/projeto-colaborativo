@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+/dist
+/build
+
+# Environment variables and credentials
+.env
+.npmrc
+
+# Logs and temporary files
+npm-debug.log*
+.DS_Store
+/*.tgz
