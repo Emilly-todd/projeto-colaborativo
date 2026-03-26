@@ -1,13 +1,33 @@
-# Dependencies
-node_modules/
-/dist
-/build
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
 
-# Environment variables and credentials
+# --- Django ---
+db.sqlite3
+/static/
 .env
-.npmrc
+local_settings.py
 
-# Logs and temporary files
-npm-debug.log*
+# --- IDEs (PyCharm e VS Code) ---
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# --- Sistemas Operacionais ---
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux (Arch/Ubuntu)
 .DS_Store
-/*.tgz
+.directory
+*~
+
+# --- Logs ---
+*.log
